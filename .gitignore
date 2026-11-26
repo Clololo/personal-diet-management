@@ -1,0 +1,43 @@
+# Android / Gradle build output
+.gradle/
+.kotlin/
+**/build/
+local.properties
+captures/
+.externalNativeBuild/
+.cxx/
+
+# IDE and operating-system files
+.idea/
+*.iml
+.DS_Store
+Thumbs.db
+
+# Signing material and local secrets
+*.jks
+*.keystore
+*.p12
+*.pem
+*.key
+.env
+.env.*
+
+# Installable packages belong in GitHub Releases, not the source tree
+*.apk
+*.aab
+
+# Internal working notes and downloaded audit datasets
+SESSION_STATE.md
+PROJECT_MEMORY.md
+VERSION_0.5.0_PLAN.md
+RELEASE_BACKLOG.md
+.audit_data/
+dish_nutrition_audit.json
+DISH_NUTRITION_AUDIT.md
+
+# Logs and temporary files
+*.log
+*.tmp
+*.bak
+__pycache__/
+*.py[cod]
